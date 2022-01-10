@@ -1,6 +1,6 @@
 {
   "name": "@bswohlers/dunk",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "description": "Scalable, TypeScript-first state management framework built on Redux",
   "scripts": {
     "test": "jest",
@@ -13,7 +13,7 @@
   "types": "lib/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wwohlers/dunk-js.git"
+    "url": "git+https://github.com/wwohlers/dunk.git"
   },
   "keywords": [],
   "author": "",
