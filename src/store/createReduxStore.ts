@@ -15,7 +15,7 @@ import { DunkModule } from '../module/types/dunkModule';
  * @param middleware any middleware to apply to Redux store
  */
 export function createReduxStore<
-  ROOT extends DunkModule<any>,
+  ROOT extends DunkModule<any, any>,
   ROOT_STATE extends ROOT['initialState'] = ROOT['initialState'],
 >(
   rootModule: ROOT,

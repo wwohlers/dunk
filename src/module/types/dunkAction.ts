@@ -3,7 +3,9 @@ import { DunkPayloads } from './dunkPayloads';
 /**
  * An object that can be dispatched to a Dunk store.
  */
-export type DunkAction<TYPE extends string, PAYLOAD> = PAYLOAD extends undefined
+export type DunkAction<TYPE extends string, PAYLOAD> = [PAYLOAD] extends [
+  undefined,
+]
   ? {
       type: TYPE;
     }
